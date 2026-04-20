@@ -5,7 +5,7 @@ START_TOTAL=$(date +%s)
 
 # Determine script directory and project root
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+PROJECT_DIR="$SCRIPT_DIR"
 
 # Create reports directory if it doesn't exist
 REVIEW_DIR="$PROJECT_DIR/src_Review"
